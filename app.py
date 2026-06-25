@@ -1,12 +1,10 @@
 import sys
-
-from PySide6.QtWidgets import QApplication, QLabel
+from PySide6.QtWidgets import QApplication
+from gui.main_window import MainWindow
 
 app = QApplication(sys.argv)
 
-label = QLabel("YouTube AI Uploader")
-label.resize(500, 200)
-label.show()
+window = MainWindow()
+window.show()
 
 sys.exit(app.exec())
-

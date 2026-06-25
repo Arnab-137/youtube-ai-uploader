@@ -1,0 +1,9 @@
+{
+    "video_folder": "videos",
+    "thumbnail_folder": "thumbnails",
+    "uploaded_folder": "uploaded",
+    "failed_folder": "failed",
+    "upload_interval_minutes": 120,
+    "headless": false,
+    "reuse_chrome_profile": true
+}
