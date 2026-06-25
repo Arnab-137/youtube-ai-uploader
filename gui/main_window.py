@@ -9,7 +9,7 @@ from PySide6.QtWidgets import (
     QStackedWidget,
 )
 
-from gui.dashboard import DashboardPage
+from gui.dashboard_page import DashboardPage
 from gui.settings import SettingsPage
 from gui.history import HistoryPage
 from gui.upload_queue import UploadQueuePage

@@ -1,0 +1,13 @@
+from database.repository import VideoRepository
+
+repo = VideoRepository()
+
+print("Total:", repo.count_all())
+print("Pending:", repo.count_pending())
+print("Uploaded:", repo.count_uploaded())
+print("Failed:", repo.count_failed())
+
+video = repo.get_next_video()
+
+if vidoeo:
+    print("Next:", video.filename)
